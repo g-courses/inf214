@@ -1,0 +1,29 @@
+{
+	"name": "inf214-uv",
+	
+	"dockerComposeFile": "docker-compose.yaml",
+	"service": "inf214-uv",
+	"workspaceMount": "source=${localWorkspaceFolder},target=/home/devuser/workspace/${localWorkspaceFolderBasename},type=bind,consistency=consistent",
+	"workspaceFolder": "/home/devuser/workspace",
+
+	// Features to add to the dev container. More info: https://containers.dev/features.
+	// "features": {},
+
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// "forwardPorts": [],
+
+	"customizations": {
+	        "vscode": {
+				"extensions": [
+					"ms-python.python",
+					"ms-toolsai.jupyter",
+					"ms-vscode.cpptools-extension-pack",
+					"lfm.vscode-makefile-term",
+					"ms-vscode.makefile-tools"
+				]
+	        }
+	},
+
+	"remoteUser": "devuser"
+}
+
