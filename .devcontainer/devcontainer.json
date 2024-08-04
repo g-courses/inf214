@@ -19,7 +19,8 @@
 					"ms-toolsai.jupyter",
 					"ms-vscode.cpptools-extension-pack",
 					"lfm.vscode-makefile-term",
-					"ms-vscode.makefile-tools"
+					"ms-vscode.makefile-tools",
+					"redhat.java"
 				]
 	        }
 	},
