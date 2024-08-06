@@ -1,6 +1,5 @@
 {
 	"name": "inf214-uv",
-	
 	"dockerComposeFile": "docker-compose.yaml",
 	"service": "inf214-uv",
 	"workspaceMount": "source=${localWorkspaceFolder},target=/home/devuser/workspace/${localWorkspaceFolderBasename},type=bind,consistency=consistent",
@@ -14,6 +13,37 @@
 
 	"customizations": {
 	        "vscode": {
+				"settings": {
+					"extensions.ignoreRecommendations": true,
+					"editor.inlineSuggest.enabled": false,
+					"editor.inlineSuggest.showToolbar": "never",
+					"editor.quickSuggestions": {
+					  "other": "off"
+					},
+					"editor.suggest.selectionMode": "never",
+					"editor.suggest.showClasses": false,
+					"editor.suggest.showColors": false,
+					"editor.suggest.showConstants": false,
+					"editor.suggest.showConstructors": false,
+					"editor.suggest.showCustomcolors": false,
+					"editor.suggest.showEnumMembers": false,
+					"editor.suggest.showEnums": false,
+					"editor.suggest.showEvents": false,
+					"editor.suggest.showFields": false,
+					"editor.suggest.showIcons": false,
+					"editor.suggest.showInlineDetails": false,
+					"editor.suggest.showInterfaces": false,
+					"editor.suggest.showIssues": false,
+					"editor.suggest.showKeywords": false,
+					"editor.suggest.showUnits": false,
+					"editor.suggest.showTypeParameters": false,
+					"editor.suggest.showUsers": false,
+					"editor.suggest.showValues": false,
+					"editor.suggest.showVariables": false,
+					"editor.suggest.showWords": false,
+					"editor.tabSize": 4,
+					"editor.insertSpaces": true
+				},
 				"extensions": [
 					"ms-python.python",
 					"ms-toolsai.jupyter",

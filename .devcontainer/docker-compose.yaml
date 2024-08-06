@@ -1,12 +1,14 @@
-version: '3.8'
 services:
   inf214-uv:
     hostname: inf214-uv
     build:
       context: .
+      platforms: 
+        - "linux/amd64"
       dockerfile: Dockerfile
     ports:
       - "8080:80"
+      - "8888:8888"
     volumes:
       - ..:/home/devuser/workspace
     image: inf214-uv-img
