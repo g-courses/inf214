@@ -3,8 +3,9 @@
 	"image":"gastudil/courses:jappy-latest",
 	"runArgs": [
 		"--init",
-		"-p", "8080:80",  // Redirige el puerto 3000 del contenedor al puerto 8080 del anfitrión
-		"-p", "8888:8888"   // Redirige el puerto 8000 del contenedor al puerto 9090 del anfitrión
+		"--hostname", "inf214-uv",
+		"-p", "8080:80",            // Redirige el puerto 3000 del contenedor al puerto 8080 del anfitrión
+		"-p", "8888:8888"           // Redirige el puerto 8000 del contenedor al puerto 9090 del anfitrión
 	],
 	  
 	// Permite sobrescribir el ENTRYPOINT
