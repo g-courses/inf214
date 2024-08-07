@@ -1,7 +1,16 @@
 {
-	"name": "inf214-uv",
-	"dockerComposeFile": "docker-compose.yaml",
-	"service": "inf214-uv",
+	"name": "inf214-uv",	
+	"image":"gastudil/courses:jappy-latest",
+	"runArgs": [
+		"--init",
+		"-p", "8080:80",  // Redirige el puerto 3000 del contenedor al puerto 8080 del anfitrión
+		"-p", "8888:8888"   // Redirige el puerto 8000 del contenedor al puerto 9090 del anfitrión
+	],
+	  
+	// Permite sobrescribir el ENTRYPOINT
+	"overrideCommand": false, 
+	"command": "/bin/sh -c 'sudo /usr/local/bin/jupyter notebook  --ip='*' --NotebookApp.token='' --NotebookApp.password='' --allow-root'", 
+  
 	"workspaceMount": "source=${localWorkspaceFolder},target=/home/devuser/workspace/${localWorkspaceFolderBasename},type=bind,consistency=consistent",
 	"workspaceFolder": "/home/devuser/workspace",
 
@@ -9,8 +18,16 @@
 	// "features": {},
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	// "forwardPorts": [],
-
+	"forwardPorts": [80,8888],
+	"portsAttributes": {
+	    "80": {
+	      "label": "Apache web server"
+	    },
+	    "8888": {
+	      "label": "Jupyter server"
+	    }
+	},
+	
 	"customizations": {
 	        "vscode": {
 				"settings": {
@@ -45,12 +62,12 @@
 					"editor.insertSpaces": true
 				},
 				"extensions": [
-					"ms-python.python",
-					"ms-toolsai.jupyter",
-					"ms-vscode.cpptools-extension-pack",
-					"lfm.vscode-makefile-term",
-					"ms-vscode.makefile-tools",
-					"redhat.java"
+					"ms-python.python", // Incluida en la imagen
+					"ms-toolsai.jupyter", // Incluida en la imagen
+					"ms-vscode.cpptools-extension-pack", // Incluida en la imagen
+					"lfm.vscode-makefile-term", // Incluida en la imagen
+					"ms-vscode.makefile-tools", // Incluida en la imagen
+					"redhat.java" // Incluida en la imagen
 				]
 	        }
 	},
