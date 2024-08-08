@@ -2,8 +2,9 @@
 
 ## Ingeniería Civil Informática Universidad de Valparaíso
 
-
 ### Instalación ambiente de desarrollo
+
+#### Software base
 
 Los ejemplos y las tareas de la asignatura se realizarán utilizando VS Code como herramienta de desarrollo y Docker como tecnología de infraestructura. Para lograr esto, en su computador deberá instalar:
 
@@ -14,4 +15,12 @@ Los ejemplos y las tareas de la asignatura se realizarán utilizando VS Code com
 
 **Observación**: Se recomienda que en la instalación de VS Code, se seleccione la opción "Agregar opción Abrir con VS Code" a archivos y directorios. Esta opción está sólo disponible para la versión de Windows. Si utiliza MacOSX, deberá seguir las instrucciones que se detallan [este enlace](https://github.com/g-courses/inf214/blob/main/vscode-macos-menu-contextual.md).
 
-###
+#### Códigos de ejemplo
+
+1) Clone este repositorio
+
+```
+$ git clone https://github.com/g-courses/inf214.git
+```
+   
+2) sds
