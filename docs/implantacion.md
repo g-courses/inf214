@@ -37,8 +37,6 @@ git clone https://github.com/g-courses/inf214.git
 <figure-caption>Figura 3. Selección opción "Abrir con VS Code" en el caso de MacOSX</figure-caption>
 </figure>
 
-
-
 4) Una vez que VS Code se ejecute, mostrará un aviso como el de la Figura 4. Seleccione **Volver a abrir en el contenedor**.
 
 <figure>
