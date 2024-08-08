@@ -1,26 +1,15 @@
+<figure>
+    <div align="center" width="100%">
+        <img src="./docs/imgs/main/head01.png" alt=""/>        
+    </div>
+</figure>
+<br />
 # Programación II 
 
 ## Ingeniería Civil Informática Universidad de Valparaíso
 
-### Instalación ambiente de desarrollo
+### Ambiente de desarrollo
 
-#### Software base
+Durante la primera semana de clases todas las personas que esten tomando este ramo deben entender la arquitectura del ambiente de desarrollo e instalarlo en sus respectivos computadores.
 
-Los ejemplos y las tareas de la asignatura se realizarán utilizando VS Code como herramienta de desarrollo y Docker como tecnología de infraestructura. Para lograr esto, en su computador deberá instalar:
-
-* [VS Code](https://code.visualstudio.com)
-* [Docker desktop](https://docs.docker.com/get-docker/)
-* [GitHub CLI](https://github.com/cli/cli#installation)
-
-
-**Observación**: Se recomienda que en la instalación de VS Code, se seleccione la opción "Agregar opción Abrir con VS Code" a archivos y directorios. Esta opción está sólo disponible para la versión de Windows. Si utiliza MacOSX, deberá seguir las instrucciones que se detallan [este enlace](https://github.com/g-courses/inf214/blob/main/vscode-macos-menu-contextual.md).
-
-#### Códigos de ejemplo
-
-1) Clone este repositorio
-
-```
-git clone https://github.com/g-courses/inf214.git
-```
-   
-2) sds
+La arquitectura del ambiente de desarrollo se explica en [este enlace](./docs/arquitectura.md). Los pasos para la implantación del ambiente de desarrollo se describen en [este documento](./docs/implantacion.md).
