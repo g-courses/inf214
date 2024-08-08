@@ -14,12 +14,14 @@ Los ejemplos y las tareas de la asignatura se realizarán utilizando VS Code com
 ## Instalación del contenedor de desarrollo 
 1) Crear una carpeta y, en forma opcional, abrir un terminal dentro de esa carpeta
 
-<div align="center" width="100%">
+
 <figure>
-<img src="./imgs/paso01.png" alt=""/>
+  <div align="center" width="100%">
+    <img src="./imgs/paso01.png" alt=""/>
+  </div>
 <figure-caption>Figura 1. Ejemplo de creación de carpeta "prueba" y terminal asociado a dicho elemento</figure-caption>
 </figure>
-</div>
+
 <br />
 <br />
 
