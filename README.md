@@ -20,7 +20,7 @@ Los ejemplos y las tareas de la asignatura se realizarán utilizando VS Code com
 1) Clone este repositorio
 
 ```
-$ git clone https://github.com/g-courses/inf214.git
+git clone https://github.com/g-courses/inf214.git
 ```
    
 2) sds
