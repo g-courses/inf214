@@ -1,0 +1,78 @@
+{
+	"name": "inf214-uv",	
+	"image":"gastudil/courses:jappy-latest",
+	"runArgs": [
+		"--init",
+		"--hostname", "inf214-uv",
+		"-p", "8080:80",            // Redirige el puerto 3000 del contenedor al puerto 8080 del anfitrión
+		"-p", "8888:8888"           // Redirige el puerto 8000 del contenedor al puerto 9090 del anfitrión
+	],
+	  
+	// Permite sobrescribir el ENTRYPOINT
+	"overrideCommand": false, 
+	"command": "/bin/sh -c 'sudo /usr/local/bin/jupyter notebook  --ip='*' --NotebookApp.token='' --NotebookApp.password='' --allow-root'", 
+  
+	"workspaceMount": "source=${localWorkspaceFolder},target=/home/devuser/workspace/${localWorkspaceFolderBasename},type=bind,consistency=consistent",
+	"workspaceFolder": "/home/devuser/workspace",
+
+	// Features to add to the dev container. More info: https://containers.dev/features.
+	// "features": {},
+
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	"forwardPorts": [80,8888],
+	"portsAttributes": {
+	    "80": {
+	      "label": "Apache web server"
+	    },
+	    "8888": {
+	      "label": "Jupyter server"
+	    }
+	},
+	
+	"customizations": {
+	        "vscode": {
+				"settings": {
+					"extensions.ignoreRecommendations": true,
+					"editor.inlineSuggest.enabled": false,
+					"editor.inlineSuggest.showToolbar": "never",
+					"editor.quickSuggestions": {
+					  "other": "off"
+					},
+					"editor.suggest.selectionMode": "never",
+					"editor.suggest.showClasses": false,
+					"editor.suggest.showColors": false,
+					"editor.suggest.showConstants": false,
+					"editor.suggest.showConstructors": false,
+					"editor.suggest.showCustomcolors": false,
+					"editor.suggest.showEnumMembers": false,
+					"editor.suggest.showEnums": false,
+					"editor.suggest.showEvents": false,
+					"editor.suggest.showFields": false,
+					"editor.suggest.showIcons": false,
+					"editor.suggest.showInlineDetails": false,
+					"editor.suggest.showInterfaces": false,
+					"editor.suggest.showIssues": false,
+					"editor.suggest.showKeywords": false,
+					"editor.suggest.showUnits": false,
+					"editor.suggest.showTypeParameters": false,
+					"editor.suggest.showUsers": false,
+					"editor.suggest.showValues": false,
+					"editor.suggest.showVariables": false,
+					"editor.suggest.showWords": false,
+					"editor.tabSize": 4,
+					"editor.insertSpaces": true
+				},
+				"extensions": [
+					"ms-python.python", // Incluida en la imagen
+					"ms-toolsai.jupyter", // Incluida en la imagen
+					"ms-vscode.cpptools-extension-pack", // Incluida en la imagen
+					"lfm.vscode-makefile-term", // Incluida en la imagen
+					"ms-vscode.makefile-tools", // Incluida en la imagen
+					"redhat.java" // Incluida en la imagen
+				]
+	        }
+	},
+
+	"remoteUser": "devuser"
+}
+
