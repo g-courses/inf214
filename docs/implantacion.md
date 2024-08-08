@@ -9,7 +9,7 @@ Los ejemplos y las tareas de la asignatura se realizarán utilizando VS Code com
 * [GitHub CLI](https://github.com/cli/cli#installation)
 
 
-**Observación**: Se recomienda que en la instalación de VS Code, se seleccione la opción "Agregar opción Abrir con VS Code" a archivos y directorios. Esta opción está sólo disponible para la versión de Windows. Si utiliza MacOSX, deberá seguir las instrucciones que se detallan [este enlace](https://github.com/g-courses/inf214/blob/main/vscode-macos-menu-contextual.md).
+**Observación**: Se recomienda que en la instalación de VS Code, se seleccione la opción "Agregar opción Abrir con VS Code" a archivos y directorios. Esta opción está sólo disponible para la versión de Windows. Si utiliza MacOSX, deberá seguir las instrucciones que se detallan [este enlace](./vscode-macos-menu-contextual.md).
 
 ## Instalación del contenedor de desarrollo 
 1) Crear una carpeta y, en forma opcional, abrir un terminal dentro de esa carpeta
