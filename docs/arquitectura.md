@@ -18,14 +18,21 @@ Luego, el programa `VS Code` que se ejecuta en el anfitrión, inicia el proceso 
     </div>
 </figure>
 
-# Sofware instaladado
+# Sofware instaladado (2024-08-08)
 
-**Compiladores e intérpretes**
+**Compilers**
 
-* Compilador C++17 g++ 9.4.0
+* Compilador C++17 g++ 9.4.0, GNU Make 4.2.1, Cmake 3.16.3
 * openJDK 11
 * Python 3.8.10
 * Jupyter notebook server
+
+**Python modules**
+
+* Matplotlib 3.7.5
+* Numpy 1.24.4
+* Pandas 2.0.3
+* Ployly 5.23.0
 
 **Jupyter Kernels**
 
