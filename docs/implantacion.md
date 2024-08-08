@@ -19,8 +19,9 @@ Los ejemplos y las tareas de la asignatura se realizarán utilizando VS Code com
 <figure-caption>Figura 1. Ejemplo de creación de carpeta "prueba" y terminal asociado a dicho elemento</figure-caption>
 </figure>
 
-<br>
-&nbsp;&nbsp;
+<br />
+<br />
+
 2) Clone este repositorio. Si utiliza el terminal del sistema operativo, puede ejecutar el siguiente comando dentro de una carpeta previamente seleccionada.
 
 ```
