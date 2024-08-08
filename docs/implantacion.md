@@ -53,7 +53,7 @@ git clone https://github.com/g-courses/inf214.git
 <br />
 
 
-4) Una vez que VS Code se ejecute, mostrará un aviso como el de la Figura 4. Seleccione **Volver a abrir en el contenedor**.
+4) Una vez que `VS Code` se ejecute, mostrará un aviso como el de la Figura 4. Seleccione **Volver a abrir en el contenedor**.
 
 <figure>
     <div align="center" width="100%">
@@ -77,7 +77,7 @@ git clone https://github.com/g-courses/inf214.git
 
 <br />
 
-6) Una vez realizado el paso 4 o 5, VS Code para por distinto estados, tal como muestran en la Figura 6. El primer paso la primera vez se puede demorar debido a que tiene que bajar la imagen del contenedor, cuyo tamaño es de aproximadamente 7 GB.
+6) Una vez realizado el paso 4 o 5, `VS Code` pasa por distinto estados, tal como muestran en la Figura 6. El primer paso la primera vez se puede demorar debido a que tiene que bajar la imagen del contenedor, cuyo tamaño es de aproximadamente 7 GB.
 
 <figure>
     <div align="center" width="100%">
@@ -89,7 +89,7 @@ git clone https://github.com/g-courses/inf214.git
 
 <br />
 
-7) Una vez que la imagen está configurada, VS Code tendrá una apariencia similar a la que se muestra en la Figura 7.
+7) Una vez que la imagen está configurada, `VS Code` tendrá una apariencia similar a la que se muestra en la Figura 7.
 
 <figure>
     <div align="center" width="100%">
@@ -103,7 +103,7 @@ git clone https://github.com/g-courses/inf214.git
 
 ## Prueba de funcionamiento del intérprete Python del contenedor de desarrollo
 
-El contenido de desarrollo tiene todo lo necesario para el desarrollo de la asignatura: compiladores de C++, Java e intérprete de Python. Además, tiene los complementos de VS Code para facilitar la codificación en estos lenguajes. Se debe destacar que **no es necesario que estas herramientas estén instaladas en su computador**. Esto ya está resuelto a nivel del contenedor de desarrollo.
+El contenido de desarrollo tiene todo lo necesario para el desarrollo de la asignatura: compiladores de `C++`, `Java` e intérprete de `Python`. Además, tiene los complementos de `VS Code` para facilitar la codificación en estos lenguajes. Se debe destacar que **no es necesario que estas herramientas estén instaladas en su computador**. Esto ya está resuelto a nivel del contenedor de desarrollo.
 
 1) Seleccione la carpeta `inf214` y luego `codes_examples`, tal como se muestra en la Figura 8
 
