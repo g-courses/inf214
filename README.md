@@ -1,2 +1,2 @@
-# inf214
-Programación II Ingeniería Civil Informática Universidad de Valparaíso
+# Programación II 
+## Ingeniería Civil Informática Universidad de Valparaíso
