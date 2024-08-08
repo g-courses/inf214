@@ -18,8 +18,8 @@ Los ejemplos y las tareas de la asignatura se realizarán utilizando VS Code com
 <figure>
   <div align="center" width="100%">
     <img src="./imgs/paso01.png" alt=""/>
-  </div>
 <figure-caption>Figura 1. Ejemplo de creación de carpeta "prueba" y terminal asociado a dicho elemento</figure-caption>
+    </div>
 </figure>
 
 <br />
