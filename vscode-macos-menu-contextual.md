@@ -20,7 +20,7 @@
 
 (La acción rápida se guarda en el archivo `~/Library/Services/Abrir en VSCode.workflow`.)
 
-## Atajos de teclado
+## Atajos de teclado (opcional)
 
 Para asignar una secuencia de teclas a la acción creada se puede realizar lo siguiente:
 
