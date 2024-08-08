@@ -3,7 +3,6 @@
         <img src="./docs/imgs/main/head01.png" alt=""/>        
     </div>
 </figure>
-<br />
 
 # Programación II 
 
