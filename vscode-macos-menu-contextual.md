@@ -1,5 +1,6 @@
-# Abrir archivo o carpeta en Visual Studio Code
+# "Abrir archivo o carpeta en Visual Studio Code" en MacOSX
 
+##  Agregar opción al "Menú de acciones rápidas"
 - Abrir Automator.
 - Crear un nuevo documento.
 - Seleccionar "Acción Rápida".
@@ -19,7 +20,7 @@
 
 (La acción rápida se guarda en el archivo `~/Library/Services/Abrir en VSCode.workflow`.)
 
-# Atajos de teclado
+## Atajos de teclado
 
 Para asignar una secuencia de teclas a la acción creada se puede realizar lo siguiente:
 
