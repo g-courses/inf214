@@ -176,7 +176,7 @@ Para el caso de Java o C++, si bien se explicará en clases, se recomienda que u
     <div align="center" width="100%">
         <img src="./imgs/pruebas_nb/paso03.png" alt=""/>
         <br />
-        <figure-caption>Figura 13. Seleccionar escribir la URL del servidor ".</figure-caption>
+        <figure-caption>Figura 13. Seleccionar escribir la URL del servidor.</figure-caption>
     </div>
 </figure>
 
