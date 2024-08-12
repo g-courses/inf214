@@ -1,0 +1,7 @@
+@startuml prueba
+Animal  <|-- Mascota
+Mascota <|-- Gato
+Mascota <|-- Perro
+Mascota <|-- Canario
+Animal  <|-- Lobo
+@enduml

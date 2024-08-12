@@ -7,7 +7,7 @@ class Animal:
     def vocalizar(self):
         print(f"{self.sonido=}") 
 
-class Mascota:
+class Mascota(Animal):
     nombreMascota: str
 
     def __init__(self):
