@@ -60,15 +60,26 @@
 					"editor.suggest.showVariables": false,
 					"editor.suggest.showWords": false,
 					"editor.tabSize": 4,
-					"editor.insertSpaces": true
+					"editor.insertSpaces": true,
+					"problems.visibility": false,
+					"doxygen_runner.view_after_generate": false
 				},
 				"extensions": [
-					"ms-python.python", // Incluida en la imagen
-					"ms-toolsai.jupyter", // Incluida en la imagen
-					"ms-vscode.cpptools-extension-pack", // Incluida en la imagen
-					"lfm.vscode-makefile-term", // Incluida en la imagen
-					"ms-vscode.makefile-tools", // Incluida en la imagen
-					"redhat.java" // Incluida en la imagen
+					// Incluidas en la imagen					
+					"ms-python.python",
+					"ms-toolsai.jupyter",
+					"ms-vscode.cpptools-extension-pack",
+					"lfm.vscode-makefile-term",
+					"ms-vscode.makefile-tools",
+					"redhat.java",
+					"hnw.vscode-auto-open-markdown-preview",
+					"ms-toolsai.datawrangler",
+					"jebbs.plantuml",
+					"bbenoist.Doxygen",
+					"cschlosser.doxdocgen",
+					"betwo.vscode-doxygen-runner",
+					"hediet.vscode-drawio"
+					// Incluya las extensiones sus extensiones a continuacion
 				]
 	        }
 	},
