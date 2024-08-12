@@ -24,10 +24,10 @@ Los ejemplos y las tareas de la asignatura se realizarán utilizando VS Code com
 
 <br />
 
-2) Clone este repositorio. Si utiliza el terminal del sistema operativo, puede ejecutar el siguiente comando dentro de una carpeta previamente seleccionada.
+2) Clone la rama `codes-examples` repositorio. Si utiliza el terminal del sistema operativo, puede ejecutar el siguiente comando dentro de una carpeta previamente seleccionada.
 
 ```
-git clone https://github.com/g-courses/inf214.git
+git clone --branch codes-examples https://github.com/g-courses/inf214.git
 ```
 
 <figure>
