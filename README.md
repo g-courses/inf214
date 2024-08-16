@@ -6,5 +6,8 @@
 
 # Programación II 
 
+## Sofware
+
 * [Ambiente de desarrollo](desarrollo.md) a utilizar 
 
+## Lecturas
